@@ -1,5 +1,4 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By
 import pytest
 
 
@@ -9,5 +8,3 @@ def browser():
     chrome_browser.implicitly_wait(10)
     return chrome_browser
 
-
-"https://www.youtube.com/watch?v=xwWNCDau0u4 1:37"
